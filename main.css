@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+html {
+  font-size: 56.2%;
+}
+
+body {
+  background: url(./Imagen-universo.jpg);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+body .container {
+  width: 500px;
+  height: 300px;
+}
+body .container .container-inputs {
+  height: 60%;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+body .container .container-inputs h1 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .container .container-inputs .Usuario {
+  border-style: none;
+  height: 30px;
+  width: 70%;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+body .container .container-inputs .contraseña {
+  border-style: none;
+  height: 30px;
+  width: 70%;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+body .glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}/*# sourceMappingURL=main.css.map */
